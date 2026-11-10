@@ -8,8 +8,8 @@ const LANGS = [
 ];
 const UI = {
   en: { title: "Entri FAQ ", sub: "Quick, honest answers for students on a call or walk-in. Tap a question, read the answer aloud or copy it.", ph: "Search: fees, job, non-IT, laptop...", tip: "Counselor tip", copy: "Copy answer", copied: "Copied", none: 'No match. Try a shorter word like "fee" or "job".', n: "questions" },
-  ta: { title: "கவுன்சிலர் FAQ மேசை", sub: "அழைப்பிலோ நேரிலோ வரும் மாணவர்களுக்கு விரைவான, நேர்மையான பதில்கள். கேள்வியைத் தொடவும்; பதிலை வாசிக்கவும் அல்லது நகலெடுக்கவும்.", ph: "தேடு: fees, job, non-IT, laptop...", tip: "கவுன்சிலர் குறிப்பு", copy: "பதிலை நகலெடு", copied: "நகலெடுக்கப்பட்டது", none: "பொருத்தம் இல்லை. 'fee' அல்லது 'job' போன்ற சிறிய சொல்லை முயற்சிக்கவும்.", n: "கேள்விகள்" },
-  ml: { title: "കൗൺസിലർ FAQ ഡെസ്ക്", sub: "ഫോണിലോ നേരിട്ടോ വരുന്ന വിദ്യാർത്ഥികൾക്ക് വേഗത്തിലുള്ള, സത്യസന്ധമായ മറുപടികൾ. ചോദ്യം തൊടുക; ഉത്തരം വായിക്കുക അല്ലെങ്കിൽ പകർത്തുക.", ph: "തിരയുക: fees, job, non-IT, laptop...", tip: "കൗൺസിലർ നിർദ്ദേശം", copy: "ഉത്തരം പകർത്തുക", copied: "പകർത്തി", none: "പൊരുത്തമില്ല. 'fee' അല്ലെങ്കിൽ 'job' പോലുള്ള ചെറിയ വാക്ക് ശ്രമിക്കുക.", n: "ചോദ്യങ്ങൾ" },
+  ta: { title: "Entri FAQ மேசை", sub: "அழைப்பிலோ நேரிலோ வரும் மாணவர்களுக்கு விரைவான, நேர்மையான பதில்கள். கேள்வியைத் தொடவும்; பதிலை வாசிக்கவும் அல்லது நகலெடுக்கவும்.", ph: "தேடு: fees, job, non-IT, laptop...", tip: "கவுன்சிலர் குறிப்பு", copy: "பதிலை நகலெடு", copied: "நகலெடுக்கப்பட்டது", none: "பொருத்தம் இல்லை. 'fee' அல்லது 'job' போன்ற சிறிய சொல்லை முயற்சிக்கவும்.", n: "கேள்விகள்" },
+  ml: { title: "Entri FAQ ഡെസ്ക്", sub: "ഫോണിലോ നേരിട്ടോ വരുന്ന വിദ്യാർത്ഥികൾക്ക് വേഗത്തിലുള്ള, സത്യസന്ധമായ മറുപടികൾ. ചോദ്യം തൊടുക; ഉത്തരം വായിക്കുക അല്ലെങ്കിൽ പകർത്തുക.", ph: "തിരയുക: fees, job, non-IT, laptop...", tip: "കൗൺസിലർ നിർദ്ദേശം", copy: "ഉത്തരം പകർത്തുക", copied: "പകർത്തി", none: "പൊരുത്തമില്ല. 'fee' അല്ലെങ്കിൽ 'job' പോലുള്ള ചെറിയ വാക്ക് ശ്രമിക്കുക.", n: "ചോദ്യങ്ങൾ" },
 };
 
 // view of one FAQ in one language: en lives at the top level, ta/ml are nested
