@@ -46,8 +46,8 @@ const EN = [
   },
   {
     c: "general",
-    q: "I am weak in English / maths. Can I still join?",
-    a: "Yes. Classes explain in simple language, and we teach only the maths/English you actually need for the job. Interview communication practice is part of the support.",
+    q: "I am weak in English . Can I still join?",
+    a: "Yes. Classes are conducted in your native language for better understanding. Additionally, soft skills sessions are available to improve your communication skills and build confidence.",
   },
   {
     c: "general",

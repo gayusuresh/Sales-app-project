@@ -23,8 +23,8 @@ export const ML = [
     a: "ഒരു coding class 1.5 hours ആണ്. ആഴ്ചയിൽ 3 coding classes ഉണ്ടാകും. ആകെ weekly class duration 4.5 hours ആണ്. ബാക്കി ദിവസങ്ങളിൽ ദിവസവും കുറഞ്ഞത് 1 hour coding practice ചെയ്യണം. Working professionals-നും exams prepare ചെയ്യുന്നവർക്കും Class Recordings / Live Session Recordings Entri App-ൽ available ആണ്. [Batch timings confirm ചെയ്യുക.]",
   },
   {
-    q: "എനിക്ക് English / Maths weak ആണ്. എനിക്ക് join ചെയ്യാൻ പറ്റുമോ?",
-    a: "തീർച്ചയായും join ചെയ്യാം! Concepts simple Tamil / English-ൽ explain ചെയ്യും. Job-ന് ആവശ്യമായ level-ിൽ Maths-ഉം English-ഉം പഠിപ്പിക്കും. Interview communication practice-ഉം ഉണ്ടാകും.",
+    q: "എനിക്ക് English  weak ആണ്. എനിക്ക് join ചെയ്യാൻ പറ്റുമോ?",
+    a: "ക്ലാസുകൾ നിങ്ങളുടെ മാതൃഭാഷയിൽ തന്നെ നടത്തുന്നതാണ്. കൂടാതെ, നിങ്ങളുടെ ആശയവിനിമയ കഴിവുകൾ (Communication Skills) മെച്ചപ്പെടുത്താനും ആത്മവിശ്വാസം വർദ്ധിപ്പിക്കാനും Soft Skills ക്ലാസുകളും ലഭ്യമാണ്.",
   },
   {
     q: "Age limit അല്ലെങ്കിൽ educational qualification എന്താണ്?",
