@@ -14,136 +14,153 @@ export const COURSES = [
   { id: "st", label: "Software Testing" },
 ];
 
-
-// English translations. ORDER MUST MATCH the TA array in faqData.js (same index = same question).
-export const EN = [
+const EN = [
+  // ---- Beginner / non-tech / unemployed ----
   {
-    q: "I don't have an IT background. Can I learn coding?",
-    a: "Yes, absolutely! We start from zero: how websites work, followed by basic logic and then coding. Students from Commerce, Arts, Mechanical, and other backgrounds have successfully learned with us. Your degree doesn't matter; practising for 1–2 hours daily is what matters.",
-    tip: "Ask: What did you study, and what are you currently doing? Recommend a course based on their background.",
+    c: "general",
+    q: "I am from a non-IT background. Can I really learn this?",
+    a: "Yes. We start from zero: how a website works, then basic logic, then code. Many of our learners come from commerce, arts, mechanical and other fields. What matters is 1-2 hours of daily practice, not your degree.",
+    tip: "Ask: what did you study, and what do you do now? Then match a course.",
   },
   {
-    q: "I am currently unemployed / have a career gap. Is that a problem?",
-    a: "Companies focus more on your skills and projects than your career gap. We help you explain your career gap honestly in your resume and interviews. By the end of the course, you will have real projects to showcase.",
-    tip: "Be supportive. Don't guarantee a job; explain that we provide guidance, support, and portfolio development.",
+    c: "general",
+    q: "I have no job right now / I have a career gap. Will that be a problem?",
+    a: "Companies care about skills and projects more than a gap. We help you explain the gap honestly in your resume and interviews, and you finish with real projects to show.",
+    tip: "Be warm here. Never promise a job; promise support and a portfolio.",
   },
   {
+    c: "general",
     q: "Which course is right for me?",
-    a: "Interested in building websites/apps → FSD-MERN. Interested in numbers and Excel → Data Analytics. Interested in mathematics and predictions → Data Science. Interested in checking quality rather than writing applications → Software Testing / Playwright. Interested in building AI applications → Agentic MERN.",
-    tip: "Ask two questions: 'Do you like building applications or testing them?' and 'Are you more interested in numbers or user interfaces?'",
+    a: "Likes building websites/apps → FSD-MERN. Likes numbers and Excel → Data Analytics. Likes maths and prediction → Data Science. Prefers checking quality over writing apps → Software Testing / Playwright. Want to build AI-powered apps → Agentic MERN.",
+    tip: "Ask 2 questions: 'Do you like building or checking?' and 'Numbers or screens?'",
   },
   {
-    q: "Do I need a laptop? What are the specifications?",
-    a: "Yes, a laptop is required for practice. 8 GB RAM with an i3 processor or above is sufficient. For Data Science and Agentic MERN, 16 GB RAM is recommended for smoother performance. [Mention lab facilities if available.]",
+    c: "general",
+    q: "Do I need a laptop? What specs?",
+    a: "Yes, a laptop is needed for practice. 8 GB RAM, i3 or better is enough. Data Science and Agentic MERN run smoother with 16 GB. [Mention if you offer lab access.]",
   },
   {
-    q: "How much time should I spend learning every day?",
+    c: "general",
+    q: "How much time do I need to give each day?",
     a: "Class Duration: 1.5 hours per coding class. Frequency: 3 coding classes per week. Total Weekly Duration: 4.5 hours. On the remaining days, you should practise coding for at least 1 hour daily. Class Recordings / Live Session Recordings are available for working professionals and students preparing for exams. [Confirm batch timings.]",
   },
   {
-    q: "Can I join if my English / Mathematics skills are weak?",
-    a: "Yes, you can! We explain concepts in simple Tamil and English. We teach only the level of Mathematics and English required for the job. Interview communication practice is also included.",
+    c: "general",
+    q: "I am weak in English / maths. Can I still join?",
+    a: "Yes. Classes explain in simple language, and we teach only the maths/English you actually need for the job. Interview communication practice is part of the support.",
   },
   {
-    q: "What is the age limit or educational qualification required?",
-    a: "Any graduate, final-year student, diploma holder, or working professional can join. No prior coding experience is required for beginner-level courses.",
+    c: "general",
+    q: "What age or qualification is required?",
+    a: "Any graduate, final-year student, diploma holder or working professional can join. No coding background needed for beginner tracks.",
   },
   {
-    q: "Can I watch a demo class first?",
+    c: "general",
+    q: "Can I attend a demo class first?",
     a: "Yes. Pre-recorded videos are available in the Entri App. By watching these videos, you can clearly understand how the classes are conducted and what each session will be like.",
   },
+
+  // ---- Fees / jobs ----
   {
-    q: "What is the course fee? Can I pay in instalments?",
-    a: "The course fee for [course] is [amount]. Instalment / EMI options are available: [your payment plan]. We will provide the details of everything included in writing before you make the payment.",
-    tip: "Understand their career goals before discussing the fee. Explain the value first, then the price.",
+    c: "fees",
+    q: "What is the fee and can I pay in installments?",
+    a: "Fee for [course] is [amount]. Installments / EMI are available: [your plan]. Everything included is listed in writing before you pay.",
+    tip: "Share fee only after you know their goal. Value first, price second.",
   },
   {
+    c: "fees",
     q: "Do you guarantee a job?",
-    a: "No genuine institution can guarantee a job. What we provide is resume preparation, mock interviews, project portfolio development, job referrals, and placement assistance. The final outcome depends on your skills and efforts.",
-    tip: "Avoid making unrealistic promises. This protects your credibility and prevents refund-related issues.",
+    a: "No honest institute can guarantee a job. What we do give: resume building, mock interviews, project portfolio, and job referrals/placement support. Your effort decides the result.",
+    tip: "Never over-promise. It protects your brand and refunds.",
   },
   {
-    q: "What salary can a fresher expect?",
-    a: "It varies depending on the city, skills, and interview performance. Freshers generally start with an entry-level salary of [range]. With strong projects and good communication skills, you may be able to achieve a higher salary.",
+    c: "fees",
+    q: "What salary can I expect as a fresher?",
+    a: "It varies by city, skills and interview performance. Freshers usually start in the entry-level range of [range]. Strong projects and communication move you to the higher end.",
   },
   {
-    q: "Will I get a certificate? Is it valuable?",
+    c: "fees",
+    q: "Will I get a certificate? Is it valued?",
     a: "Yes, you will receive certificates upon successful course completion. Companies mainly evaluate your projects and interview performance, so we focus on helping you build practical projects. The certificates include: Entri Course Completion Certificate, NSDC Skill India Certificate (National), and Illinois Tech Certificate (International).",
   },
   {
-    q: "What if I miss a class?",
+    c: "fees",
+    q: "What if I miss classes?",
     a: "Class Recordings / Live Session Recordings are available in the Entri App. You can watch the recorded sessions and catch up on missed classes.",
   },
   {
-    q: "What is the refund policy?",
-    a: "[Clearly mention your refund policy.] We will explain the policy in writing during admission, so there will be no unexpected surprises.",
+    c: "fees",
+    q: "What is your refund policy?",
+    a: "[State your policy clearly.] We explain it in writing at admission so there are no surprises.",
   },
+
+  // ---- Course specific ----
   {
+    c: "fsd",
     q: "What will I learn in FSD-MERN?",
-    a: "You will learn HTML, CSS, JavaScript, React for frontend development, Node.js and Express for backend development, and MongoDB for databases. You will build complete projects such as e-commerce websites, job portals, and chat applications. Course duration: [x months].",
-    tip: "Career opportunities: Full Stack Developer, React Developer, and Node.js Developer.",
+    a: "HTML, CSS, JavaScript, React for the front end, Node + Express for the server, MongoDB for the database. You build full projects like e-commerce, job portal or chat app. Duration: [x months].",
+    tip: "Roles: Full Stack Developer, React Developer, Node Developer.",
   },
   {
-    q: "Is there still demand for MERN developers?",
-    a: "Yes. JavaScript is widely used in startups and product-based companies. Since the same programming language is used for both frontend and backend development, MERN is a convenient starting point for beginners.",
+    c: "fsd",
+    q: "Is MERN still in demand?",
+    a: "Yes. JavaScript is everywhere in startups and product companies, and one language for front and back end makes it beginner friendly.",
   },
   {
+    c: "agentic",
     q: "What is Agentic MERN?",
-    a: "Agentic MERN combines MERN with AI agents. You will build AI-powered applications using LLM APIs and agent frameworks. These applications can perform tasks independently, such as answering questions, searching for information, calling tools, and automating workflows. Examples include AI support bots, AI study assistants, and smart resume analyzers.",
-    tip: "Best suited for learners who already know MERN or have completed FSD-MERN.",
+    a: "MERN plus AI agents: you build apps where AI can take actions (answer, search, call tools, automate tasks) using LLM APIs and agent frameworks. Example projects: AI support bot, AI study assistant, smart resume analyzer.",
+    tip: "Best for learners with some MERN knowledge or those who finish FSD-MERN.",
   },
   {
-    q: "Do I need to know MERN before joining Agentic MERN?",
-    a: "Basic JavaScript knowledge is required. If you are a complete beginner, we recommend starting with FSD-MERN or a combined learning track. [Confirm your batch structure.]",
+    c: "agentic",
+    q: "Do I need to know MERN before Agentic MERN?",
+    a: "Basic JavaScript is needed. If you are new, we recommend FSD-MERN first or a combined track. [Confirm your batch structure.]",
   },
   {
-    q: "What tools will I learn in Data Analytics?",
-    a: "You will learn Excel, SQL, Power BI, and basic Python. You will analyse real-world data and create dashboards. Career opportunities include Data Analyst, Business Analyst, and MIS Executive.",
-    tip: "A suitable option for non-technical and Commerce graduates.",
+    c: "da",
+    q: "What tools do I learn in Data Analytics?",
+    a: "Excel, SQL, Power BI/Tableau, and basic Python. You analyze real data and build dashboards. Roles: Data Analyst, Business Analyst, MIS executive.",
+    tip: "Great fit for non-tech and commerce graduates.",
   },
   {
+    c: "da",
     q: "Is coding required for Data Analytics?",
-    a: "Very little coding is required. Most tasks can be performed using Excel and SQL. Python basics will also be taught from the beginning.",
+    a: "Very little. Excel and SQL do most of the work, and Python basics are taught from scratch.",
   },
   {
+    c: "ds",
     q: "What is the difference between Data Analytics and Data Science?",
-    a: "Data Analytics explains what has happened using data and dashboards. Data Science predicts what may happen using Python, statistics, and machine learning. Data Science is more advanced and requires deeper mathematical knowledge and more learning time.",
+    a: "Analytics explains what happened using data and dashboards. Data Science predicts what will happen using Python, statistics and machine learning. Science is deeper and needs more maths and time.",
   },
   {
+    c: "ds",
     q: "Is Data Science suitable for freshers?",
-    a: "Yes, if you are willing to learn patiently. You can start with Python, statistics, and practical projects. Many learners begin with Data Analytics and gradually move into Data Science. [Confirm your learning path.]",
+    a: "Yes, with patience. Starting with Python, statistics and projects works. Many learners do Data Analytics first and then move up. [Confirm path.]",
   },
   {
+    c: "pw",
     q: "What is Playwright?",
-    a: "Playwright is a modern automation testing tool that uses JavaScript / TypeScript to automatically test websites across browsers such as Chrome, Firefox, and Safari. Companies use it for automation testing, and demand for these skills is growing.",
-    tip: "For better results, combine Playwright with Software Testing fundamentals.",
+    a: "A modern tool to automatically test websites in Chrome, Firefox and Safari using JavaScript/TypeScript. Companies use it for automation testing, and demand is growing.",
+    tip: "Pair with Software Testing basics for best results.",
   },
   {
-    q: "Is coding required for Playwright?",
-    a: "Basic JavaScript knowledge is required, and it will be taught as part of the course. Manual testing knowledge is helpful but not mandatory.",
+    c: "pw",
+    q: "Do I need coding for Playwright?",
+    a: "Basic JavaScript is required and taught in the course. Manual testing knowledge helps but is not mandatory.",
   },
   {
-    q: "What is Software Testing? What will I learn?",
-    a: "Software Testing is the process of identifying bugs before an application reaches users. You will learn Manual Testing, Test Cases, Bug Reporting, Jira, API Testing using Postman, basic SQL, and an introduction to Automation Testing. Career opportunities include QA Tester and QA Analyst.",
-    tip: "A good starting point for people who don't know coding but have good attention to detail.",
+    c: "st",
+    q: "What is Software Testing and what do I learn?",
+    a: "Finding bugs before users do. You learn manual testing, test cases, bug reporting, Jira, API testing with Postman, SQL basics, and an intro to automation. Roles: QA Tester, QA Analyst.",
+    tip: "Good entry for non-coders who are detail-oriented.",
   },
   {
-    q: "Manual Testing or Automation Testing: Which should I choose?",
-    a: "Start with Manual Testing to understand the fundamentals. Then learn Automation Testing using Playwright to improve your career growth and salary opportunities. Our learning path covers both.",
+    c: "st",
+    q: "Manual testing or automation: which should I choose?",
+    a: "Start with manual to build core skills, then add automation (Playwright) for better pay and growth. Our path covers both.",
   },
 ];
-
-export const EN_TABS = {
-  all: "All",
-  general: "Getting Started & Career Gap",
-  fees: "Fees & Jobs",
-  fsd: "FSD-MERN",
-  agentic: "Agentic MERN",
-  da: "Data Analytics",
-  ds: "Data Science",
-  pw: "Playwright",
-  st: "Software Testing",
-};
 
 if (EN.length !== TA.length || EN.length !== ML.length)
   console.warn("EN/TA/ML FAQ counts differ:", EN.length, TA.length, ML.length);
